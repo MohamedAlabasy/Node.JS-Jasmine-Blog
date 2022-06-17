@@ -4,6 +4,11 @@
   "description": "<h1 align=\"center\"> Node.JS with Jasmine </h1>",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
+    "lint": "eslint scr/*.ts",
+    "lint:f": "eslint scr/*.ts --fix",
+   
+    "tests": "npm run build && npm run jasmine",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
