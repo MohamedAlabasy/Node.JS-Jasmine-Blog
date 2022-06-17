@@ -1,5 +1,5 @@
 const myFun = (num: number): number => {
-  return num * num;
+    return num * num;
 };
 
 export default myFun;
