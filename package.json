@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "lint": "eslint scr/*.ts",
-    "lint:f": "eslint scr/*.ts --fix",
+    "lint": "eslint src/*.ts",
+    "lint:f": "eslint src/*.ts --fix",
     "jasmine": "jasmine",
     "tests": "npm run build && npm run jasmine",
     "test": "echo \"Error: no test specified\" && exit 1"
