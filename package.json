@@ -7,7 +7,6 @@
     "build": "tsc",
     "lint": "eslint scr/*.ts",
     "lint:f": "eslint scr/*.ts --fix",
-   
     "tests": "npm run build && npm run jasmine",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -28,6 +27,8 @@
     "eslint": "^8.17.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
+    "jasmine": "^4.2.0",
+    "jasmine-spec-reporter": "^7.0.0",
     "prettier": "^2.7.1",
     "typescript": "^4.7.3"
   }
