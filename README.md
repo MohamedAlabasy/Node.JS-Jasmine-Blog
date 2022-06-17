@@ -28,6 +28,6 @@ npm run jasmine
 ```
 OR
 ```
-node run test
+node run tests
 ```
 
