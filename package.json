@@ -24,6 +24,7 @@
   "homepage": "https://github.com/MohamedAlabasy/Node.JS-Jasmine-Blog#readme",
   "devDependencies": {
     "@types/jasmine": "^4.0.3",
+    "@types/supertest": "^2.0.12",
     "@typescript-eslint/eslint-plugin": "^5.28.0",
     "@typescript-eslint/parser": "^5.28.0",
     "eslint": "^8.17.0",
@@ -32,6 +33,7 @@
     "jasmine": "^4.2.0",
     "jasmine-spec-reporter": "^7.0.0",
     "prettier": "^2.7.1",
+    "supertest": "^6.2.3",
     "typescript": "^4.7.3"
   },
   "dependencies": {

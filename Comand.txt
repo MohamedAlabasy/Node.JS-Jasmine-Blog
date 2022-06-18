@@ -30,60 +30,6 @@ npm i -D jasmine
 npm i -D jasmine-spec-reporter
 npm i --D @types/jasmine
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# save package
-npm i express --save
-npm i morgan --save-dev
-
-# to install all package
-npm i
-
-# to install production package with out dev package
-npm i production
-
-# to install global package in my device
-npm i nodemon -g
-
-# to uninstall package
-npm uninstall packageName
-
-# to update package 
-npm update packageName
-npm install packageName@1.01.1
-
-# to get node version
-global.process
-
-# Create crypto ACCESS_TOKEN_SECRET key
-node
-require('crypto').randomBytes(64).toString('hex')
-
-
-
-# add lib
-npm i @@typegoose/auto-increment --save
-npm i bcryptjs --save
-npm i body --save
-npm i dotenv --save
-npm i express --save
-npm i express --save
-npm i jsonwebtoken --save
-npm i mongoose --save
-npm i morgan --save-dev
-npm i --save-dev nodemon
-sudo npm i -g express-generator 
+ # add super test lib to test endpoints
+ npm i -D supertest
+ npm i --save-dev @types/supertest 
