@@ -36,6 +36,10 @@ npm i -D supertest
 npm i -D @types/supertest 
 
 
-# add 
+# add express
 npm i express --save
 npm i -D @types/express
+
+
+# to make jasmine ignore code error and focus in test 
+npm run tests --silent
