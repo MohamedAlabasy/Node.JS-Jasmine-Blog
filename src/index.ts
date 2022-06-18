@@ -3,6 +3,7 @@ import numbers from "./utilities/numbers";
 import strings from "./utilities/strings";
 /** Use Axios to get data from restcountries api */
 import axios from 'axios';
+import express from 'express';
 // const myFun = (num: number): number => {
 //   return num * num;
 // };
@@ -78,9 +79,20 @@ async function getRegionCapitals(regionalbloc: string) {
 }
 
 
+const app = express()
+const PORT = 8888;
+app.get('/api', (request, response, next) => {
+  response.send('hello world');
+})
+app.listen(PORT, () => {
+  console.log(`App Run at http://localhost:${PORT || 5000}`);
+})
+
+
 export default {
   getCountry,
   getRegionCountries,
-  getRegionCapitals
+  getRegionCapitals,
+  app
 };
 

@@ -30,6 +30,12 @@ npm i -D jasmine
 npm i -D jasmine-spec-reporter
 npm i --D @types/jasmine
 
- # add super test lib to test endpoints
- npm i -D supertest
- npm i --save-dev @types/supertest 
+
+# add super test lib to test endpoints
+npm i -D supertest
+npm i -D @types/supertest 
+
+
+# add 
+npm i express --save
+npm i -D @types/express

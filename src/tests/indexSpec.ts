@@ -3,7 +3,8 @@ import arrays from '../utilities/arrays';
 import numbers from '../utilities/numbers';
 import strings from '../utilities/strings';
 import countries from "../index";
-
+import supertest from 'supertest';
+import app from '../index';
 
 // it('expect myFun(5) to equal 25', () => {
 //     expect(myFun(5)).toEqual(25);
@@ -67,4 +68,18 @@ it("should get capitals of NAFTA countries", async () => {
     expect(data).toEqual([
         'Ottawa', 'Mexico City', 'Washington, D.C.'
     ]);
+});
+
+
+
+// test endpoints api 
+
+const request = supertest(app);
+describe('Test endpoint responses', () => {
+    it('gets the api endpoint', async (done) => {
+        const response = await request.get('/api');
+        expect(response.status).toBe(200);
+        done();
+    }
+    )
 });
